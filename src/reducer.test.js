@@ -1,7 +1,10 @@
 import {List, Map, fromJS} from 'immutable';
+import chai from 'chai';
+import chaiImmutable from 'chai-immutable';
 import {expect} from 'chai';
-
 import reducer from '../src/reducer';
+
+chai.use(chaiImmutable);
 
 describe('reducer', () => {
 
